@@ -24,7 +24,7 @@
     --section-title-color: var(--color-black);
 }
 /* Universal box-sizing rule */
-* {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 html {
