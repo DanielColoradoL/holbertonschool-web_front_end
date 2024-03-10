@@ -255,7 +255,7 @@ ul.row {
     left: var(--header-logo-link-left);
 }
 .nav .nav-link::before {
-    content: none;
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -263,7 +263,7 @@ ul.row {
     width: 0;
     height: 0.2rem;
 }
-.nav .nav-item .nav-link:hover {
+.nav .nav-item:hover .nav-link:before {
     background-color: var(--color-primary);
     width: 100%;
 }
