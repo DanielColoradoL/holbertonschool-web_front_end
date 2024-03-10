@@ -172,7 +172,9 @@ ul.row {
 .footer-address {
     color: var(--text-color)
 }
-.social-link, .social-link svg {
+.social-link {
     display: block;
-    fill: var(--text-color);
+}
+.social-link svg {
+    fill: var(--text-color)
 }
